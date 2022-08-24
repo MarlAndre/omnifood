@@ -1,4 +1,4 @@
-/* 
+/*
 --- 01 TYPO SYSTEM
 
 - FONT SIZE SYSTEM (px)
@@ -16,10 +16,10 @@ Default: 1
 
 - Primary: #e67e22
 
-- Tints: 
-- Shades: 
-- Accents: 
-- Greys: 
+- Tints:
+- Shades:
+- Accents:
+- Greys:
 #555
 
 
@@ -40,9 +40,24 @@ Default: 1
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
+}
+
+.hero {
+  width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero-img {
+  width: 100%;
 }
